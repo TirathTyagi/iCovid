@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="918.0" prefWidth="982.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iCovid.IndiaEffect">
+   <children>
+      <Pane prefHeight="146.0" prefWidth="982.0" style="-fx-background-color: #009EFA;">
+         <children>
+            <Label layoutX="267.0" layoutY="27.0" text="Effects In India" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="64.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label fx:id="label2020" layoutX="14.0" layoutY="146.0" opacity="0.0" text="2020">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="box2020" editable="false" layoutX="8.0" layoutY="199.0" opacity="0.0" prefHeight="603.0" prefWidth="967.0" text="On 12 January 2020, the WHO confirmed that a novel coronavirus was the cause of a respiratory illness in a cluster of people in Wuhan, Hubei, &#10;China, which was reported to the WHO on 31 December 2019.&#10;On 30 January 2020, India reported its first case of COVID-19 in Thrissur, Kerala, which rose to three cases by 3 February 2020; all were &#10;students returning from Wuhan. Apart fromthese, no significant rise in transmissions was observed in February. On 4 March 22 new cases &#10;were reported, including 14 infected members of an Italian tourist group. Transmissions increased over the month after several people with&#10;travel history to affected countries, and their contacts, tested positive. On 12 March, a 76-year-old man, with a travel history to Saudi Arabia, &#10;became the first COVID-19 fatality of India.&#10;In July 2020, it was estimated based on antibody tests that at least 57% of the inhabitants of Mumbai's slums may have been infected with &#10;COVID-19 at some point. A government panel on COVID-19 stated in October 2020 that the pandemic had peaked in India, and could come &#10;under control by February 2021.&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;A Sikh preacher, who had a travel history to Italy and Germany, turned into a superspreader by attending a Sikh festival in Anandpur Sahib &#10;during 10–12 March. Over 40,000 people in 20 villages in Punjab were quarantined on 27 March to contain the spread. On 31 March, a Tablighi&#10;Jamaat religious congregation event in Delhi, which had taken place earlier in March, emerged as a COVID-19 hotspot. On 2 May, around 4,000 &#10;stranded pilgrims returned from Hazur Sahib in Nanded, Maharashtra to Punjab. Many of them tested positive, including 27 bus drivers and &#10;conductors who had been part of the transport arrangement.&#10;">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextArea>
+      <ImageView fx:id="img2020" fitHeight="376.0" fitWidth="288.0" layoutX="348.0" layoutY="399.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@India_COVID-19_cases_density_map.svg.png" />
+         </image>
+      </ImageView>
+      <JFXToggleButton fx:id="toggle2021" layoutX="443.0" layoutY="825.0" text="2021" />
+      <Label fx:id="label2021" layoutX="14.0" layoutY="146.0" text="2021">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <JFXTextArea fx:id="box2021" editable="false" layoutX="7.0" layoutY="199.0" prefHeight="603.0" prefWidth="967.0" text="India began its vaccination programme on 16 January 2021. On 19 January 2021, nearly a year after the first reported case in the country, Lakshadweep became the last region of India to report its first case. By February 2021, daily cases had fallen to 9,000 per-day. However, by early-April 2021, a major second wave of infections took hold in the country; on 9 April, India surpassed 1 million active cases, and by 12 April, India overtook Brazil as having the second-most COVID-19 cases worldwide.By late April, India passed 2.5 million active cases and was reporting an average of 300,000 new cases and 2,000 deaths per-day. Some analysts feared this was an undercount. On 30 April, India reported over 400,000 new cases and over 3,500 deaths in one day.&#10;&#10;Multiple factors have been proposed to have potentially contributed to the sudden spike in cases, including highly-infectious variants, a lack of preparations as temporary hospitals were often dismantled after cases started to decline, and new facilities were not built, and health and safety precautions being poorly-implemented or enforced during weddings, festivals (such as Holi on 29 March, and the Haridwar Kumbh Mela which was linked to linked to at least 1,700 positive cases between 10 and 14 April including cases in Hindu seers), sporting events (such as IPL), state and local elections in which politicians and activists have held in several states, and in public places.&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;An economic slowdown put pressure on the government to lift restrictions, and there had been a feeling of exceptionalism based on the hope that India's young population and childhood immunisation scheme would blunt the impact of the virus. Models may have underestimated projected cases and deaths due to the under-reporting of cases in the country.&#10;&#10;The second wave placed a major strain on the healthcare system, including a shortage of liquid medical oxygen due to ignored warnings which began in the first wave itself, logistic issues, and a lack of cryogenic tankers. On 23 April, Modi met via videoconference with liquid oxygen suppliers, where he acknowledged the need to &quot;provide solutions in a very short time&quot;, and acknowledged efforts such as increases in production, and the use of rail, and air transport to deliver oxygen supplies.&#10;">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXTextArea>
+      <ImageView fx:id="img2021" fitHeight="189.0" fitWidth="271.0" layoutX="320.0" layoutY="459.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@download.png" />
+         </image>
+      </ImageView>
+      <Button contentDisplay="TOP" layoutX="878.0" layoutY="852.0" mnemonicParsing="false" onAction="#goBack" prefHeight="58.0" prefWidth="96.0" text="Back">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="28.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons8-back-100.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

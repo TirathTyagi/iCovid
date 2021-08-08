@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="984.0" prefWidth="997.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iCovid.InfoAboutVaccine">
+   <children>
+      <Pane prefHeight="151.0" prefWidth="997.0" style="-fx-background-color: #009EFA;">
+         <children>
+            <Label layoutX="247.0" layoutY="29.0" text="Vaccines In India" textFill="#fcfafa">
+               <font>
+                  <Font name="System Bold" size="64.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label fx:id="covLabel" layoutX="14.0" layoutY="159.0" opacity="0.0" text="Covaxin">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="covBox" editable="false" layoutX="14.0" layoutY="204.0" opacity="0.0" prefHeight="200.0" prefWidth="974.0" text="Covaxin is an inactivated COVID-19 vaccine developed by Bharat Biotech in collaboration with the Indian Council of Medical Research. &#10;As an inactivated vaccine, Covaxin uses a more traditional technology that is similar to the inactivated polio vaccine. nitially, a sample of &#10;SARS-CoV-2 was isolated by India's National Institute of Virology and used to grow large quantities of the virus using vero cells. From then on, &#10;the viruses are soaked in beta-propiolactone, which deactivates them by binding to their genes, while leaving other viral particles intact.&#10;The resulting inactivated viruses are then mixed with an aluminium-based adjuvant&#10;&#10;&#10;&#10;">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextArea>
+      <ImageView fx:id="covImg" fitHeight="109.0" fitWidth="125.0" layoutX="605.0" layoutY="295.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Covaxin_vial.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="trialLabel" layoutX="14.0" layoutY="409.0" opacity="0.0" text="Trials">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="trialBox" editable="false" layoutX="14.0" layoutY="444.0" opacity="0.0" prefHeight="473.0" prefWidth="974.0" text="1) Phase 1 and Phase 2 Trials:&#10;In May 2020, Indian Council of Medical Research's (ICMR's) National Institute of Virology approved and provided the virus strains for developing&#10;a fully indigenous COVID-19 vaccine. In June 2020, the company received permission to conduct Phase I and Phase II human trials of a&#10;developmental COVID-19 vaccine codenamed BBV152, from the Drugs Controller General of India (DCGI), Government of India.A total of 12 &#10;sites were selected by the Indian Council for Medical Research for Phase I and II randomised, double-blind and placebo-controlled clinical &#10;trials of vaccine candidate.&#10;In January 2021, the company published Phase I trial results in The Lancet. On March 8, 2021, Phase II results were published in The Lancet. &#10;The study showed that Phase II trials had a higher immune response and induced T-cell response due to the difference in dosing regime from &#10;Phase I. The doses in Phase II were given at 4 weeks interval as opposed to 2 weeks in Phase I. Neutralization response of the vaccine were &#10;found significantly higher in Phase II.&#10;&#10;2) Phase 3 Trials:&#10;In November 2020, Covaxin received the approval to conduct Phase III human trials after completion of Phase I and II. A randomised, double-&#10;blinded, placebo-controlled study among volunteers of age group 18 and above, it started on 25 November and involved around 26,000 &#10;volunteers from across 22 sites in India. Refusal rate for Phase III trials was much higher than that for Phase I and Phase II. As a result, only &#10;13,000 volunteers had been recruited by 22 December with the number increasing to 23,000 by 5 January.&#10;&#10;Multiple ethical breaches have been reported at one of their trial sites in Bhopal, potentially hampering the quality of overall data.&#10;&#10;In April 2021, Bharat Biotech reported via a press-release that efficacy is 78%, in its interim analysis of its phase 3 trial&#10;&#10;">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextArea>
+      <JFXToggleButton fx:id="toggleCoviShield" layoutX="427.0" layoutY="912.0" text="Covishield">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXToggleButton>
+      <Label fx:id="covLabel1" layoutX="14.0" layoutY="159.0" text="Covishield">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="covBox1" editable="false" layoutX="12.0" layoutY="204.0" prefHeight="262.0" prefWidth="974.0" text="The Oxford–AstraZeneca COVID-19 vaccine sold under the brand names Covishield and Vaxzevria among others, is a viral vector vaccine for &#10;prevention of COVID-19. Developed by Oxford University and AstraZeneca, it is given by intramuscular injection. The efficacy of the vaccine is &#10;76.0% at preventing symptomatic COVID-19 beginning at 22 days following the first dose and 81.3% after the second dose. Another analysis &#10;showed that, for symptomatic COVID-19 infection after the second dose, the vaccine is 66% effective against B.1.1.7 (alpha) variant, and 60% &#10;against B.1.617.2 (delta) variant.&#10;The vaccine has a good safety profile, with side effects including injection-site pain, headache, and nausea, all generally resolving within a &#10;few days. More rarely, anaphylaxis may occur (the UK Medicines and Healthcare products Regulatory Agency (MHRA) has 268 reports out of &#10;some 21.2 million vaccinations as of 14 April 2021)&#10;&#10;&#10;">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextArea>
+      <ImageView fx:id="coviImg" fitHeight="109.0" fitWidth="108.0" layoutX="450.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Oxford_AstraZeneca_COVID-19_vaccine_AZD1222_-_4.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="trialLabel1" layoutX="14.0" layoutY="475.0" text="Trials">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="trialBox1" editable="false" layoutX="14.0" layoutY="510.0" prefHeight="409.0" prefWidth="974.0" text="1) Phase 1 and Phase 2 Trials:&#10;In July 2020, AstraZeneca partnered with IQVIA to accelerate the timeframe for clinical trials being planned or conducted in the US. On 31 &#10;AugustAstraZeneca announced that it had begun enrollment of adults for a US-funded, 30,000-subject late-stage study.&#10;Clinical trials for the vaccine candidate were halted worldwide on 8 September, as AstraZeneca investigated a possible adverse reaction which &#10;occurred in a trial participant in the UK. Trials were resumed on 13 September after AstraZeneca and Oxford, along with UK regulators,concluded &#10;it was safe to do so. AstraZeneca was later criticised for refusing to provide details about potentially serious neurological side effects in two trial &#10;participants who had received the experimental vaccine in the UK. While the trials resumed in the UK, Brazil, South Africa, Japan and India, the&#10;US did not resume clinical trials of the vaccine until 23 October. This was due to a separate investigation by the Food and Drug Administration &#10;surrounding a patient illness that triggered a clinical hold, according to the US Department of Health and Human Services (HHS) Secretary &#10;Alex Azar.&#10;&#10;2) Phase 3 Trials:&#10;On 22 March 2021, AstraZeneca released interim results from the phase III trial conducted in the US that showed efficacy of 79% at preventing &#10;symptomatic COVID-19 and 100% efficacy at preventing severe disease and hospitalisation.The next day, the National Institute of Allergy and &#10;Infectious Diseases (NIAID) published a statement countering that those results may have relied on &quot;outdated information&quot; that may have &#10;provided an incomplete view of the efficacy data.AstraZeneca later revised its efficacy claim to be 76% after further review of the data.">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextArea>
+      <Button contentDisplay="TOP" layoutX="859.0" layoutY="925.0" mnemonicParsing="false" onAction="#returnBack" prefHeight="53.0" prefWidth="100.0" text="Back">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="24.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons8-back-100.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

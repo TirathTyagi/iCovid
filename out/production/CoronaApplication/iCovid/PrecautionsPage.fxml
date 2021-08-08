@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="727.0" prefWidth="996.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iCovid.PrecautionsPage">
+   <children>
+      <Pane prefHeight="144.0" prefWidth="996.0" style="-fx-background-color: #009EFA;">
+         <children>
+            <Label layoutX="128.0" layoutY="26.0" text="Precautions for Covid 19" textFill="#f8f7f7">
+               <font>
+                  <Font name="System Bold" size="64.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <TextArea layoutX="14.0" layoutY="151.0" prefHeight="490.0" prefWidth="969.0" text="Some of the precautions that are to be taken in order to be safe from Covid 19 virus are :-&#10;&#10;1) Clean your hands often. Use soap and water, or an alcohol-based hand rub.&#10;2) Maintain a safe distance from anyone who is coughing or sneezing.&#10;3) Wear a mask when physical distancing is not possible.&#10;4) Don’t touch your eyes, nose or mouth.&#10;5) Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.&#10;6) Stay home if you feel unwell.&#10;7) If you have a fever, cough and difficulty breathing, seek medical attention.&#10;&#10;Masks can help prevent the spread of the virus from the person wearing the mask to others. Masks alone do not protect against COVID-19, and&#10;should be combined with physical distancing and hand hygiene. Follow the advice provided by your local health authority.">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextArea>
+      <ImageView fitHeight="246.0" fitWidth="164.0" layoutX="148.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@slide39d52040065b54a20b4f75e1c5f6607c6.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="232.0" fitWidth="249.0" layoutX="625.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@download.jpg" />
+         </image>
+      </ImageView>
+      <Button contentDisplay="TOP" layoutX="881.0" layoutY="648.0" mnemonicParsing="false" onAction="#goBackButt" prefHeight="65.0" prefWidth="95.0" text="Back">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="31.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons8-back-100.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>
